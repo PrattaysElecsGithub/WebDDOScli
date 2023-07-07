@@ -12,9 +12,12 @@ print(Fore.RED + "╔═════════════╣ WARNING! ╠═�
 print(Fore.RED + "║+-   This Application is Created,   -+║")
 print(Fore.RED + "║+-      FOR EDUCATION PURPOSES!     -+║")
 print(Fore.RED + "║+- Please, Don't MISUSE This Tool!  -+║")
-print(Fore.RED + "╚══════════════════════════════════════╝")
+print(Fore.RED + "╚══════════════════════════════════════╝\n")
+print(Fore.BLUE + "|+- Trying To Connect To ")
 
 
+# TODO: Call main() and fix the above line
+# TODO: Show Agrv1 and Argv2 in String 16
 def main():
     response = requests.get('https://www.example.com')
 
